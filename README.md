@@ -4,8 +4,14 @@ A small Java/Maven project for modeling order validation behavior and exercising
 
 ## Build
 
-Run the unit tests with Maven:
+Run the unit tests with the Maven Wrapper:
 
 ```bash
-mvn -B clean test
+./mvnw -B clean test
+```
+
+On Windows:
+
+```powershell
+.\mvnw.cmd -B clean test
 ```
